@@ -1,0 +1,21 @@
+{
+  "name": "PublicAPI",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/coffee app.coffee",
+    "test": "bin/test test/test*.coffee"
+  },
+  "main": "app.coffee",
+  "dependencies": {
+    "coffee-script": "1.3.x",
+    "express": "2.5.9",
+    "express-namespace": "0.1.1"
+  },
+  "author": "Team Shipit",
+  "description": "A stats service for tvtag",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/caseymonc/statstest.git"
+  }
+}
